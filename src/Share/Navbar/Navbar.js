@@ -1,5 +1,6 @@
 import React from 'react';
 import angel from "../../Assets/New Text Document.png"
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
@@ -70,7 +71,7 @@ const Navbar = () => {
       <li><a>Publication</a></li>
     </ul>
   </div>
-    <button className='btn btn-outline text-white '>Contact</button>
+    <Link to="/contact" className='btn btn-outline text-white '>Contact</Link>
   </div>
 </div> 
 
